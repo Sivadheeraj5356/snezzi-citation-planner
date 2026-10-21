@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Snezzi Citation Planner</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="hero">
+    <section class="panel intro">
+      <p class="eyebrow">Snezzi delivery workflow</p>
+      <h1>AI citation planner</h1>
+      <p class="lede">Turn prompt opportunities into a ranked execution queue for comparison, best-of, use-case, FAQ and guide pages that can earn AI search citations.</p>
+      <div class="badges"><span>Prompt gap scoring</span><span>Asset recommendations</span><span>Execution queue</span></div>
+    </section>
+    <section class="panel workspace">
+      <label for="opportunityInput">Prompt opportunities</label>
+      <textarea id="opportunityInput" spellcheck="false" placeholder="best whatsapp automation tool | Snezzi client | Competitor | comparison | medium"></textarea>
+      <div class="actions"><button id="planButton" type="button">Build queue</button></div>
+      <section id="results" class="results" aria-live="polite"><p class="empty-state">Add one opportunity per line: prompt | brand | competitor | type | difficulty.</p></section>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
